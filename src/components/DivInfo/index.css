@@ -1,0 +1,51 @@
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 736px;
+    height: 215px;
+    gap: 24px;
+    flex-direction: column;
+    position: absolute;
+    /* left: 352px; */
+    top: 291px;
+}
+
+.info .listTecnologia{
+    width: 736px;
+    height:172px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 172px;
+    gap: 12px;
+}
+
+.info .listTecnologia.vazio{
+    width: 736px;
+    height:172px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 172px;
+    border-radius: 8px;
+    border-top: 1px solid #808080;
+    gap: 16px;
+}
+
+.info .listTecnologia.vazio p{
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: center;
+    color: #808080;
+
+}
+
+
+.info .listTecnologia.vazio p span{
+    font-weight: 400;
+}

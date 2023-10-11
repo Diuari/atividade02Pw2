@@ -1,0 +1,43 @@
+.infoLabels {
+    width: 736px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.infoLabels .tecInfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    text-align: center;
+
+}
+
+.infoLabels .tecInfo:nth-child(1) p:not(.number){
+    color: #4EA8DE;
+    gap: 8px;
+}
+
+.infoLabels .tecInfo:nth-child(2) p:not(.number){
+    color: #8284FA;
+    gap: 8px;
+}
+
+.infoLabels .tecInfo .number{
+    color: white;
+    background-color: #333333;
+    width: 25px;
+    /* width: 52px; */
+    height: 19px;
+    border-radius: 999px;
+    padding: 2px, 8px, 2px, 8px;
+    gap: 10px;
+
+}
+
+
+.infoLabels .tecInfo.great .number{
+    width: 52px;
+}
